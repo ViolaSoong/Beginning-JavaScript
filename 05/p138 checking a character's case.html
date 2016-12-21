@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checking a character's case</title>
+</head>
+<body>
+    <script>
+        function checkCharType(charToCheck) {
+            var returnValue = "O";
+            var charCode = charToCheck.charCodeAt(0);
+
+            if (charCode >= "A".charCodeAt(0) && charCode <= "Z".charCodeAt(0)) {
+                // in practice, it would be much easier to write: if (char >= "A" && char <= "Z")
+                returnValue = "U";
+            } else if (charCode >= "a".charCodeAt(0) && charCode <= "z".charCodeAt(0)) {
+                returnValue = "L";
+            }else if (charCode >= "0".charCodeAt(0) && charCode <= "9".charCodeAt(0)) {
+                returnValue = "N";
+            }
+            return returnValue;
+        }
+
+        var myString = prompt("Enter some text", "Hello world!");
+
+        switch (checkCharType(myString)) {
+            case "U":
+                document.write("First character is upper case");
+                break;
+            case "L":
+                document.write("First character is lower case");
+                break;
+            case "N":
+                document.write("First character is a number");
+                break;
+            default:
+                document.write("First character is not a character or a number");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>using the className property</title>
+    <style>
+        #divAdvert {
+            font: 12pt arial;
+        }
+
+        .newStyle {
+            font-style: italic;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="divAdvert">
+        Here is an advertisement.
+    </div>
+
+    <script>
+        var divAdvert = document.getElementById("divAdvert");
+        divAdvert.className = "newStyle";
+
+        // positioning and moving the content:
+        divAdvert.style.position = "absolute";
+        divAdvert.style.left = "100px";
+        divAdvert.style.top = "100px";
+    </script>
+</body>
+</html>

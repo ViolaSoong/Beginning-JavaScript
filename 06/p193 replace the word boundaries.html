@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>replace the word boundaries</title>
+</head>
+<body>
+    <script>
+        var myString = "Hello world! Let's look at boundaries said 007.";
+
+        var myRegExp = /\b/g;
+        myString = myString.replace(myRegExp, "|");
+        alert(myString);
+    </script>
+</body>
+</html>

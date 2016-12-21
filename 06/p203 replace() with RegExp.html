@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+//        var myString = "2012, 2013, 2014";
+//        var myRegExp = /(\d{4})/g;
+//        myString = myString.replace(myRegExp, "the year $1");
+//        alert(myString);
+
+        // replace single quotes with double quotes:
+        var text = "He then said 'My name is O'Connerly, yes that's right, O'connerly'";
+        document.write("Original: " + text + "<br/>");
+
+        var myRegExp = /\B'|'\B/g;
+        text = text.replace(myRegExp, '"');
+
+        document.write("Corrected: " + text);
+    </script>
+</body>
+</html>

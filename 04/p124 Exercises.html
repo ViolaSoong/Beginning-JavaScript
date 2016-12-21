@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercises</title>
+</head>
+<body>
+    <script>
+        //Exercise 1 :
+        var mainNum = prompt("Please enter a number between -10 and 10.", "");
+
+        if ( isNaN(mainNum) == true)
+            document.write("You have entered an invalid value.");
+        else {
+            function theTimesTable(startNum, endNum) {
+                for (var i = startNum; i <= endNum; i++) {
+                    var result = mainNum * i;
+                    document.write(result + "<br/>");
+                }
+            }
+        }
+
+        theTimesTable(4, 9);
+
+    </script>
+</body>
+</html>

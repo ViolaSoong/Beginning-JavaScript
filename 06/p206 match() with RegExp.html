@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>match() with RegExp</title>
+</head>
+<body>
+    <script>
+        var myString = "The years were 2012, 2013, 2014";
+        var myRegExp = /\b\d{4}\b/g;
+        var resultsArray = myString.match(myRegExp);
+        if (resultsArray) {
+            for (var index = 0; index < resultsArray.length; index++) {
+                alert(resultsArray[index]);
+            }
+        }
+    </script>
+</body>
+</html>

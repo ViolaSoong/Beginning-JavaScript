@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>retrieve file path and name of a web page</title>
+</head>
+<body>
+    <script>
+        var fileName = window.location.href;
+        fileName = fileName.substr(fileName.lastIndexOf("/") + 1);
+        document.write("The file name of this page is " + fileName);
+    </script>
+</body>
+</html>

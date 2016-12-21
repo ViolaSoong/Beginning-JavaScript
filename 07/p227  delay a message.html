@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delay a message</title>
+</head>
+<body>
+    <script>
+        function doThisLater() {
+            alert("Time's up!");
+        }
+
+        //setTimeout(doThisLater, 3000);
+        //you delay the call of this function by using setTimeOut().
+        //the second parameter tells JS to execute doThisLater() after 3000milliseconds,
+        // or 3seconds.
+
+        // stopping the timer:
+        var timerId = setTimeout(doThisLater, 3000);
+
+        clearTimeout(timerId);
+    </script>
+</body>
+</html>

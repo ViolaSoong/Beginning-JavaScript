@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercises</title>
+</head>
+<body>
+    <script>
+        //exercise 1:
+//        var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+//         "Aug", "Sep", "Oct", "Nov", "Dec"];
+//        var nowDate = new Date();
+//
+//        nowDate.setMonth(nowDate.getMonth() + 12);
+//        document.write("Date 12 months ahead is " + nowDate.getDate());
+//        document.write(" " + months[nowDate.getMonth()]);
+//        document.write(" " + nowDate.getFullYear());
+
+        //exercise 2:
+        var inputName = "";
+        var namesArray = [];
+
+        while ((inputName = prompt("Enter a name", "")) != "") {
+            namesArray[namesArray.length] = inputName;
+        }
+
+        namesArray.sort();
+
+        var nameslist = namesArray.join("<br/>");
+        document.write(nameslist);
+
+    </script>
+</body>
+</html>

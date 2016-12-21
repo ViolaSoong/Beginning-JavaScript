@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercises</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        //exercise 1:
+//        var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+//        var year = prompt("Enter the four digit year you were born.");
+//        var month = prompt("Enter your birth month (1-12).");
+//        var date = prompt("Enter the day you were born.");
+//
+//        var birthDate = new Date(year, month-1, date);
+//
+//        alert(days[birthDate.getDay()]);
+
+        //exercise 2:
+        function updateTime() {
+            var date = new Date();
+
+            var value = date.getHours() + ":" +
+                    date.getMinutes() + ":" +
+                    date.getSeconds();
+
+            document.getElementById("output").innerHTML = value;
+        }
+
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>

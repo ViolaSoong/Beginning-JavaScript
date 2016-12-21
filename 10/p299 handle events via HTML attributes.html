@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handle events via HTML attributes</title>
+</head>
+<body>
+  <!--  <a href="somepage.html" onclick="alert('You clicked?')">Click me.</a>  -->
+
+   <!-- the solution above is fine if you have only one line of code to
+    connect to the event handler, but what if you want a number of lines to execute
+    when the link is clicked? -->
+
+    <a href="somepage.html" onclick="return linkClick()">Click me.</a>
+    <script>
+        function linkClick() {
+            alert("You clicked?");
+            return true;
+        }
+    </script>
+</body>
+</html>

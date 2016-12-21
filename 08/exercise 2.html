@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 2</title>
+</head>
+<body>
+    <img src="" width="100" height="120" alt="My Image" />
+    <script>
+        //the  key to this solution is getting a random number between 0 and
+        // the length of the images array:
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * max) + min;
+        }
+
+        var myImages = [
+            "images/award.gif",
+            "images/background.gif",
+            "images/bag.gif",
+            "images/costa.gif"
+        ];
+
+        // now you can use this function to generate a number for you, passing 0
+        // as the min and the length of array as the mas:
+        var random = getRandomNumber(0, myImages.length);
+
+        // use the random number to get the image:
+        document.images[0].src = myImages[random];
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forEach(), map()</title>
+</head>
+<body>
+    <script>
+        var numbers = [1, 2, 3, 4, 5];
+
+//        for (var i = 0; i < numbers.length; i++) {
+//            var result = numbers[i] * 2;
+//            alert(result);
+//        }
+//      OR:
+//
+//        function doubleAndAlert(value, index, array) {
+//            var result = value * 2;
+//            alert(result);
+//        }
+//        numbers.forEach(doubleAndAlert);
+
+        //map() is similar to forEach(). it executes a given function on every element in an
+        //array, but it also returns a new array that contains the results of the function.
+
+        function doubleAndReturn(value, index, array) {
+            var result = value * 2;
+            return result;
+        }
+        var doubleNumbers = numbers.map(doubleAndReturn);
+        alert("The doubled numbers are: " + doubleNumbers);
+    </script>
+</body>
+</html>

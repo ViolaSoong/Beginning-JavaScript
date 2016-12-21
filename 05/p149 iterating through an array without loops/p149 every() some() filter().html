@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>every(), some(), filter()</title>
+</head>
+<body>
+    <script>
+        var numbers = [1, 2, 3, 4, 5];
+
+        function isLessThan3(value, index, array) {
+            var returnValue = false;
+
+            if (value < 3) {
+                returnValue = true;
+            }
+            return returnValue;
+        }
+        //alert(numbers.every(isLessThan3));   // false
+
+        //alert(numbers.some(isLessThan3));       //true
+
+        if (numbers.some(isLessThan3)) {
+            var result = numbers.filter(isLessThan3);
+            alert("These numbers are less than 3: " + result);
+        }
+        //filter() executes ur function on every element in the array, and if ur function
+        //returns true for a particular element, that element is added to a new array that
+        //the filter() method returns.
+
+    </script>
+</body>
+</html>

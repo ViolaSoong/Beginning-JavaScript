@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> a counting clock</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        function updateTime() {
+            document.getElementById("output").innerHTML = new Date();
+        }
+
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display random images with HTML attribute event handlers</title>
+</head>
+<body>
+    <img id="img0" src="images/bag.gif" />
+    <img id="img1" src="images/costa.gif" />
+
+    <script>
+        var myImages = [
+            "images/award.gif",
+            "images/background.gif",
+            "images/bag.gif",
+            "images/costa.gif"
+        ];
+
+        //this function accepts one parameter called that. it's called that because
+        // you pass the this keyword to the function, which gives you immediate
+        // access to the img object you click. you can actually name the parameter as you want,
+        // but most developers use "that" when it references this.
+        function changeImg(e) {
+            var el = e.target;
+            //you set the newImgNumber variable to a random integer between 0 and 3:
+            // the Math.random() method provides a random number between 0 and 1
+            var newImgNumber = Math.round(Math.random() * 3);
+
+            //in order to avoid selecting the same image as the current one, if the string
+            // contained in myImages[newImgNumber] is found inside the src property of the
+            //current image, you know it's the same and that you need to get another random number:
+            while (el.src.indexOf(myImages[newImgNumber]) != -1) {
+                newImgNumber = Math.round(Math.random() * 3);
+            }
+
+            el.src = myImages[newImgNumber];
+        }
+
+        document.getElementById("img0").onclick = changeImg;
+
+    </script>
+</body>
+</html>

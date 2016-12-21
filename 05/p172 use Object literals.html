@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using object literals</title>
+</head>
+<body>
+    <script>
+//        function createPerson(firstName, lastName) {
+//            return {
+//                firstName: firstName,
+//                lastName: lastName,
+//                getFullName: function () {
+//                    return this.firstName + " " + this.lastName
+//                },
+//                greet: function (person) {
+//                    alert("Hello, " + person.getFullName() + ". I'm" + this.getFullName());
+//                }
+//            };
+//        }
+//
+//        var johnDoe = createPerson("John", "Doe");
+//        var janeDoe = createPerson("Jane", "Doe");
+//
+//        johnDoe.greet(janeDoe);
+
+        // define a reference type:
+        function Person(firstName, lastName) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }   //create the constructor, it's defined with an uppercase letter.
+
+// it's more efficient to define the two methods on Person's prototype:
+        Person.prototype.getFullName = function () {
+            return this.firstName + " " + this.lastName;
+        };
+
+        Person.prototype.greet = function (person) {
+            alert("Hello, " + person.getFullName() + ". I'm " + this.getFullName());
+        };
+
+        var johnDoe = new Person("John", "Doe");
+        var janeDoe = new Person("Jane", "Doe");
+
+        johnDoe.greet(janeDoe);
+    </script>
+</body>
+</html>

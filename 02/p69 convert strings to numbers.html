@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convert strings to numbers</title>
+</head>
+<body>
+    <script>
+        var myString = "56.02 degrees centigrade";
+        var myInt;
+        var myFloat;
+
+        document.write("\"" + myString + "\" is " + parseInt(myString, 10) +
+            " as an integer" + "<br/>");
+        //the number 10, is called radix, it determines how the string is parsed into a number;
+        //by passing the number 10, you tell the parseInt() to convert the number using the Base 10 number system.
+        // Always specify the radix!!
+        myInt = parseInt(myString, 10);
+        document.write("\"" + myString + "\" when converted to an integer equals "
+            + myInt + "<br/>");
+        myFloat = parseFloat(myString);
+        document.write("\"" + myString + "\" when converted to a floating point number equals "
+            + myFloat);
+    </script>
+</body>
+</html>

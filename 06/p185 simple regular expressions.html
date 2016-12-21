@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple regular expressions</title>
+</head>
+<body>
+    <script>
+        var myString = "Paul, Paula, Pauline, paul, Paul";
+        // to replace any occurrence of the name "Paul" with "Ringo":
+        //the pattern of text you need to look for is simply Paul.
+        //Represent this as a regular expression:
+        var myRegExp = /Paul\b/g;
+        myString = myString.replace(myRegExp, "Ringo");
+        alert(myString);
+
+        //global case-insensitive: /Paul/gi
+    </script>
+</body>
+</html>

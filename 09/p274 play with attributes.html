@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play with attributes</title>
+</head>
+<body>
+    <p id="para1">This is some text.</p>
+    <script>
+        var pElement = document.getElementById("para1");
+        //use the setAttribute() method to set the align attribute to center:
+        pElement.setAttribute("align", "center");
+        // you get the value of the align attribute and display it in an alert box:
+        alert(pElement.getAttribute("align"));
+
+        pElement.removeAttribute("align");
+    </script>
+</body>
+</html>
