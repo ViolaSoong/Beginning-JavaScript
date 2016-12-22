@@ -16,10 +16,6 @@
             "images/costa.gif"
         ];
 
-        //this function accepts one parameter called that. it's called that because
-        // you pass the this keyword to the function, which gives you immediate
-        // access to the img object you click. you can actually name the parameter as you want,
-        // but most developers use "that" when it references this.
         function changeImg(e) {
             var el = e.target;
             //you set the newImgNumber variable to a random integer between 0 and 3:
@@ -36,8 +32,8 @@
             el.src = myImages[newImgNumber];
         }
 
-        document.getElementById("img0").onclick = changeImg;
-
+        document.getElementById("img0").addEventListener("click", changeImg);
+        document.getElementById("img1").addEventListener("click", changeImg);
     </script>
 </body>
 </html>

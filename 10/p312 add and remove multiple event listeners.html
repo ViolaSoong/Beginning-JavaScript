@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> add and remove multiple event listeners</title>
+</head>
+<body>
+    <img id="img0" src="images/award.gif" />
+    <div id="status"></div>
+
+    <script>
+        var myImages = [
+            "images/award.gif",
+            "images/background.gif",
+            "images/bag.gif",
+            "images/costa.gif"
+        ];
+
+        function changeImg(e) {
+            var el = e.target;
+            var newImgNumber = Math.round(Math.random() * 3);
+
+            while (el.src.indexOf(myImages[newImgNumber]) != -1) {
+                newImgNumber = Math.round(Math.random() * 3);
+            }
+            el.src = myImages[newImgNumber];
+        }
+
+        function updateStatus(e) {
+            var el = e.target;
+            var status = document.getElementById("status");
+
+            status.innerHTML = "The image changed to " + el.src;
+
+            if (el.src.indexOf("costa") > -1) {
+                el.removeEventListener("click", changeImg);
+                el.removeEventListener("click", updateStatus);
+            }
+        }
+
+        var imgObj = document.getElementById("img0");
+
+        imgObj.addEventListener("click", changeImg);
+        imgObj.addEventListener("click", updateStatus);
+    </script>
+</body>
+</html>
