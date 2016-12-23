@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74151d0-2140-4553-9ec8-03b7ac72ac4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10/p353 full drag and drop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11/p363 the forms collection.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10/p317 using the DOM event model.html" afterPath="$PROJECT_DIR$/10/p317 using the DOM event model.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="p299 handle events via HTML attributes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10/p299 handle events via HTML attributes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="p311 display random images with HTML attribute event handlers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10/p311 display random images with HTML attribute event handlers.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,11 +65,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p348 dropping objects on a target.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p348 dropping objects on a target.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10/p348 dropping objects on a target.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
               <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p353 full drag and drop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10/p353 full drag and drop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p363 the forms collection.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11/p363 the forms collection.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -131,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05/p166 what date it will be 28days from now.html" />
-        <option value="$PROJECT_DIR$/05/p167 write the current time into a web page.html" />
         <option value="$PROJECT_DIR$/05/p169 set time value.html" />
         <option value="$PROJECT_DIR$/05/p178 exercises.html" />
         <option value="$PROJECT_DIR$/05/p172 use Object literals.html" />
@@ -182,6 +190,8 @@
         <option value="$PROJECT_DIR$/10/p345 creating a drop target.html" />
         <option value="$PROJECT_DIR$/10/p317 using the DOM event model.html" />
         <option value="$PROJECT_DIR$/10/p348 dropping objects on a target.html" />
+        <option value="$PROJECT_DIR$/10/p353 full drag and drop.html" />
+        <option value="$PROJECT_DIR$/11/p363 the forms collection.html" />
       </list>
     </option>
   </component>
@@ -225,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10" />
+              <option name="myItemId" value="11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,12 +360,12 @@
       <workItem from="1481810665982" duration="3229000" />
       <workItem from="1482293391611" duration="4373000" />
       <workItem from="1482328221099" duration="1000" />
-      <workItem from="1482484874389" duration="2866000" />
+      <workItem from="1482484874389" duration="6324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133778000" />
+    <option name="totallyTimeSpent" value="137236000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,20 +409,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05/p172 use Object literals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="42" column="48" lean-forward="true" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/p178 exercises.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06/p181 reverse the order of text.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -735,6 +731,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/p353 full drag and drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/p363 the forms collection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
