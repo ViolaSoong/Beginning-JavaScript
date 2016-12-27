@@ -5,7 +5,7 @@
     <title>new input types</title>
 </head>
 <body>
-    <form name="form1">
+    <form  id="form1" name="form1">
         <p>
             <label for="minValue">Min: </label>
             <input type="number" id="minValue" name="minValue" />
@@ -22,12 +22,11 @@
             <input type="range" id="slider" name="slider" />
         </p>
     </form>
-
-    <div id="output"></div>
+    <output id="result" name="result" form="form1" for="slider"></output>
 
     <script>
         var myForm = document.form1;
-        var output = document.getElementById("output");
+        var output = myForm.result;
 
         function formInputChange() {
             var slider = myForm.slider;
@@ -36,7 +35,7 @@
             slider.max = parseFloat(myForm.maxValue.value);
             slider.step = parseFloat(myForm.stepValue.value);
 
-            output.innerHTML = slider.value;
+            result.value = slider.value;
         }
 
         myForm.addEventListener("input", formInputChange);
