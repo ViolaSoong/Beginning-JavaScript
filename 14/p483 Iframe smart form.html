@@ -11,6 +11,10 @@
         .submit {
             text-align: right;
         }
+
+        #hiddenFrame {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -62,10 +66,12 @@
         </table>
     </form>
 
-    <script src="p469%20httprequest.js"></script>
+    <iframe src="about:blank" id="hiddenFrame" name="hiddenFrame"></iframe>
+
     <script>
         function checkUsername(e) {
             e.preventDefault();
+
             var userValue = document.getElementById("username").value;
 
             if (!userValue) {
@@ -75,12 +81,12 @@
 
             var url = "ch14_formvalidator.php?username=" + userValue;
 
-            var request = new HttpRequest(url, handleResponse);
-            request.send();
+            frames["hiddenFrame"].location = url;
         }
 
         function checkEmail(e) {
             e.preventDefault();
+
             var emailValue = document.getElementById("email").value;
 
             if (!emailValue) {
@@ -90,8 +96,7 @@
 
             var url = "ch14_formvalidator.php?email=" + emailValue;
 
-            var request = new HttpRequest(url, handleResponse);
-            request.send();
+            frames["hiddenFrame"].location = url;
         }
 
         function handleResponse(responseText) {

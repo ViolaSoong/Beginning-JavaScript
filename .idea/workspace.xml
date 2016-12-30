@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74151d0-2140-4553-9ec8-03b7ac72ac4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14/p469 httprequest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14/p473 XMLHttpRequest smart form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14/p483 Iframe smart form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/14/p473 XMLHttpRequest smart form.html" afterPath="$PROJECT_DIR$/14/p473 XMLHttpRequest smart form.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,16 +32,27 @@
               <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc;n#HttpRequest#0" expanded="false" />
+                <marker date="1483091530870" expanded="true" signature="88:568" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p473 XMLHttpRequest smart form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p473 XMLHttpRequest smart form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/14/p473 XMLHttpRequest smart form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+            <state relative-caret-position="52">
+              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p483 Iframe smart form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/14/p483 Iframe smart form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="98" column="49" lean-forward="false" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -63,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/08/p240 set colors according to the user's screen color depth.html" />
         <option value="$PROJECT_DIR$/08/p243 image selection.html" />
         <option value="$PROJECT_DIR$/08/images/p246 using feature detection.html" />
         <option value="$PROJECT_DIR$/08/p246 using feature detection.html" />
@@ -114,6 +124,7 @@
         <option value="$PROJECT_DIR$/13/p456 example 3a.html" />
         <option value="$PROJECT_DIR$/14/p469 httprequest.js" />
         <option value="$PROJECT_DIR$/14/p473 XMLHttpRequest smart form.html" />
+        <option value="$PROJECT_DIR$/14/p483 Iframe smart form.html" />
       </list>
     </option>
   </component>
@@ -286,12 +297,12 @@
       <workItem from="1482719091012" duration="17499000" />
       <workItem from="1482922881028" duration="1033000" />
       <workItem from="1482989414978" duration="6428000" />
-      <workItem from="1483088178801" duration="2660000" />
+      <workItem from="1483088178801" duration="4731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164863000" />
+    <option name="totallyTimeSpent" value="166934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,7 +314,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27891654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -335,13 +346,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/08/p240 set colors according to the user's screen color depth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="75" lean-forward="false" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08/p237 use geolocation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -663,14 +667,23 @@
           <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc;n#HttpRequest#0" expanded="false" />
+            <marker date="1483091530870" expanded="true" signature="88:568" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/14/p473 XMLHttpRequest smart form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        <state relative-caret-position="52">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14/p483 Iframe smart form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="98" column="49" lean-forward="false" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
           <folding />
         </state>
       </provider>
